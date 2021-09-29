@@ -81,9 +81,8 @@ public class EmojiJob
             return false;
         if (op != other.op)
             return false;
-        if (type != other.type)
-            return false;
-        return true;
+        return type != other.type;
+
     }
 
     @Override

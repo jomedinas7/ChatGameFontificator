@@ -18,6 +18,10 @@ public class Owner
         this.displayName = displayName;
     }
 
+    public Owner(String displayName) {
+        this.displayName = displayName;
+    }
+
     public int getId()
     {
         return id;

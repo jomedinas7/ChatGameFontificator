@@ -8,4 +8,8 @@ package com.glitchcog.fontificator.gui.emoji.exception;
 public abstract class EmojiBaseException extends Exception
 {
     private static final long serialVersionUID = 1L;
+
+    public static void printUID(){
+        System.out.println(serialVersionUID);
+    }
 }
